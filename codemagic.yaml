@@ -2,7 +2,6 @@ workflows:
   build_and_test:
     name: Build and Test Workflow
     environment:
-      android: true
       vars:
         # Add any environment variables here
     scripts:
@@ -22,3 +21,4 @@ workflows:
       email:
         recipients:
           - billooko2@gmail.com
+
