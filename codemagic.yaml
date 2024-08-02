@@ -1,0 +1,24 @@
+workflows:
+  build_and_test:
+    name: Build and Test Workflow
+    environment:
+      android: true
+      vars:
+        # Add any environment variables here
+    scripts:
+      - name: Install dependencies
+        script: |
+          ./gradlew dependencies
+      - name: Run tests
+        script: |
+          ./gradlew test
+      - name: Build APK
+        script: |
+          ./gradlew assembleRelease
+    artifacts:
+      - app/build/outputs/**/*.apk
+      - app/build/outputs/**/*.aab
+    publishing:
+      email:
+        recipients:
+          - billooko2@gmail.com
