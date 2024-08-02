@@ -1,10 +1,7 @@
 workflows:
   build_and_test:
     name: Build and Test Workflow
-    environment:
-      vars:
-        # Add any environment variables here
-    scripts:
+     scripts:
       - name: Install dependencies
         script: |
           ./gradlew dependencies
