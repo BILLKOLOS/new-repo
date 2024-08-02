@@ -42,10 +42,4 @@ Use your time wisely.
 •App Usage Stats: Permission to access your app usage stats is required in order to determine whether the launched app is being used at the end of the time limit. No data is saved and this permission is only used at the end of time limit. The app can function without this permission too but TimesApp is unable to determine the current app being used and a dialog is displayed(instead of a notification) even if app was closed earlier, thus spoiling the user experience.
 
 
-## Screenshots
-
-![ss_1](https://user-images.githubusercontent.com/22665789/42932539-3023adba-8b60-11e8-9d3c-4a978dceecf9.png)
-![ss_2](https://user-images.githubusercontent.com/22665789/42932542-3361037e-8b60-11e8-850d-7ac92b6c5d76.png)
-![ss_3](https://user-images.githubusercontent.com/22665789/42932548-35a72ca8-8b60-11e8-9eb6-22afa0f76936.png)
-![ss_4](https://user-images.githubusercontent.com/226657(https://user-images.githubusercontent.com/22665789/42932564-3b869848-8b60-11e8-97c3-ca1af7aaeaa3.png)
 
