@@ -1,4 +1,4 @@
-# TimesApp
+# Shutt
 Take control of the time spent on other apps on Android
 TimesApp helps you in managing the time you spend on your phone by setting time limits on applications.
 
@@ -33,7 +33,7 @@ Use your time wisely.
 
 ## How it Works:
 
-• TimesApp displays a list of all the apps on your phone. You can create home screen shortcuts for the apps you want to launch with a time limit. You can also launch apps from this list itself if you don't want home screen shortcuts.
+• Shutt displays a list of all the apps on your phone. You can create home screen shortcuts for the apps you want to launch with a time limit. You can also launch apps from this list itself if you don't want home screen shortcuts.
 • A time limit dialog pops up using which you set a time limit for the app and then the app is launched.
 • When the time limit is reached and your app is still being used (usage permission required), a dialog pops up notifying you of the same. From here you can either close the app or use the app for another 1 minute. If the app is not being used at the end of time limit, a notification is shown instead of a dialog (usage permission required).
 
